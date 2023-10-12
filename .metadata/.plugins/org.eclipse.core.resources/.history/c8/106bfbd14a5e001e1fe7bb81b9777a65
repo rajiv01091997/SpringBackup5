@@ -1,0 +1,127 @@
+package com.glo.repository;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.List;
+
+import com.glo.connection.DBconnection;
+import com.glo.model.*;
+import com.mysql.cj.xdevapi.Statement;
+public class Repository {
+	
+	public void AddFreight(Freight emp) 
+	{
+		try
+		{
+		Connection con=DBconnection.connect();
+	    PreparedStatement ps=con.prepareStatement("insert into Freight values(?,?,?)");
+		ps.setInt(1, emp.getOrderId());
+		ps.setString(2, emp.getOrigin());
+		ps.setString(3, emp.getDestination());
+		
+		
+		boolean val=ps.execute();
+		if(val==false)
+			System.out.println("Employee inserted with id:"+ emp.getOrderId());
+		else
+			System.out.println("can't insert!!!!!!!!!!!");
+		
+		ps.close();
+		con.close();
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+	public void getAllFreight()
+	{
+		try {
+		Connection con=DBconnection.connect();
+		
+		PreparedStatement ps=con.prepareStatement("select * from Freight");
+		
+		
+		
+		
+		ResultSet rs=ps.executeQuery();
+		
+		
+		
+		
+		System.out.println("orderId"+"\t"+"Origin"+"\t"+"Destination");
+		
+		while(rs.next())
+		{
+			System.out.println(rs.getInt(1)+"\t"+rs.getString(2)+"\t"+rs.getString(3));
+		}
+		
+		    }
+		
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+	public void getById(int id)
+	{
+		try {
+			Connection con=DBconnection.connect();
+			PreparedStatement ps=con.prepareStatement("select * from Freight where orderId=?");
+			ps.setInt(1, id);
+			ResultSet rs=ps.executeQuery();
+			while(rs.next())
+			{
+				System.out.println("orderId"+"\t"+"Origin"+"\t"+"Destination");
+				System.out.println(rs.getInt(1)+"\t"+rs.getString(2)+"\t"+rs.getString(3));
+			}
+		}
+
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public void update(int id,String origin,String destination) 
+	{
+		
+		try {
+		Connection con=DBconnection.connect();
+		
+		PreparedStatement ps=con.prepareStatement("update Freight set origin=?,destination=? where orderId=?");
+		ps.setString(1, origin);
+		ps.setString(2, destination);
+		ps.setInt(3, id);
+		
+		ps.executeUpdate();
+		System.out.println("updated......");
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	
+	public void delete(int id) 
+	{
+		
+		try {
+         Connection con=DBconnection.connect();
+		
+		PreparedStatement ps=con.prepareStatement("delete from Freight where orderId=?");
+		ps.setInt(1, id);
+		
+		ps.executeUpdate();
+		System.out.println("Deleted");
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+
+}

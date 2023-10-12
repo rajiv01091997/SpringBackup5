@@ -1,0 +1,25 @@
+
+p	java:S106L"9Replace this use of System.out or System.err by a logger.(¬şäÿùÿÿÿÿ8ëŸ÷¨1HµRMAJORZ
+CODE_SMELL
+p	java:S106."9Replace this use of System.out or System.err by a logger.(†Ê’óÿÿÿÿÿ8Â˜©1H±RMAJORZ
+CODE_SMELL
+k	java:S106)"9Replace this use of System.out or System.err by a logger.(×çÂ¾8”÷ö¨1H°RMAJORZ
+CODE_SMELL
+~
+java:S1128	"KRemove this unused import 'org.springframework.context.annotation.Primary'.(“ğ›ß8Áû¹©1HªRMINORZ
+CODE_SMELL
+p	java:S106G"9Replace this use of System.out or System.err by a logger.(áˆ£¬úÿÿÿÿ8ˆı¶÷¨1H©RMAJORZ
+CODE_SMELL
+i
+java:S1135%"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8”÷ö¨1H®RINFOZ
+CODE_SMELL
+l
+java:S1128"4Remove this unused import 'java.beans.BeanProperty'.(…æó¸ûÿÿÿÿ8Áû¹©1H³RMINORZ
+CODE_SMELL
+p	java:S106$"9Replace this use of System.out or System.err by a logger.(¦ß‚òÿÿÿÿÿ8šŠ€ö¨1H¯RMAJORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(óòÈäûÿÿÿÿ8‹š¢©1H©RMAJORZ
+CODE_SMELL
+‹
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Qualifier'.(íàÄ®ıÿÿÿÿ8‹š¢©1H¬RMINORZ
+CODE_SMELL

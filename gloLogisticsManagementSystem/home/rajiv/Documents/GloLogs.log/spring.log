@@ -1,0 +1,7 @@
+2023-09-13T12:49:29.396+05:30  INFO 3282595 --- [main] .GloLogisticsManagementSystemApplication : Starting GloLogisticsManagementSystemApplication using Java 17.0.4.1 with PID 3282595 (/home/rajiv.yadav/Documents/Spring_Verizon/gloLogisticsManagementSystem/target/classes started by rajiv.yadav in /home/rajiv.yadav/Documents/Spring_Verizon/gloLogisticsManagementSystem)
+2023-09-13T12:49:29.399+05:30  INFO 3282595 --- [main] .GloLogisticsManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-13T12:49:29.783+05:30  INFO 3282595 --- [main] .GloLogisticsManagementSystemApplication : Started GloLogisticsManagementSystemApplication in 0.678 seconds (process running for 1.208)
+2023-09-13T12:49:29.786+05:30  INFO 3282595 --- [main] GloLogisticsManagementSystemApplication  : All freights are:[Freight [orderId=101, origin=Kolkata, destination=Bangalore], Freight [orderId=102, origin=Mumbai, destination=Chandigarh]]
+2023-09-13T12:49:29.787+05:30  INFO 3282595 --- [main] GloLogisticsManagementSystemApplication  : Freight with asked id isFreight [orderId=102, origin=Mumbai, destination=Chandigarh]
+2023-09-13T12:49:29.787+05:30 ERROR 3282595 --- [main] GloLogisticsManagementSystemApplication  : error
+2023-09-13T12:49:29.787+05:30  WARN 3282595 --- [main] GloLogisticsManagementSystemApplication  : warning

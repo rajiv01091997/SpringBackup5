@@ -1,0 +1,8 @@
+
+r
+java:S1128":Remove this unused import 'ch.qos.logback.classic.Logger'.(™Ğğöøÿÿÿÿ8Öêûò¨1H½RMINORZ
+CODE_SMELL
+s	java:S125&"<This block of commented-out lines of code should be removed.(´“äıÿÿÿÿ8²äñ¨1HÀRMAJORZ
+CODE_SMELL
+p	java:S106$"9Replace this use of System.out or System.err by a logger.(È‰í®ÿÿÿÿÿ8Æ‚¯ò¨1H¿RMAJORZ
+CODE_SMELL

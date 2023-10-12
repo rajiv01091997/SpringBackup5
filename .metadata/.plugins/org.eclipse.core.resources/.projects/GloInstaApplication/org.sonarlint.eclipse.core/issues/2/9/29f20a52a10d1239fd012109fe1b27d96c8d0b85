@@ -1,0 +1,43 @@
+
+i	java:S106V"9Replace this use of System.out or System.err by a logger.(¼‚€ÎúÿÿÿÿHãRMAJORZ
+CODE_SMELL
+d	java:S106N"9Replace this use of System.out or System.err by a logger.(™Ï¡£HäRMAJORZ
+CODE_SMELL
+i	java:S106:"9Replace this use of System.out or System.err by a logger.(È‰í®ÿÿÿÿÿHåRMAJORZ
+CODE_SMELL
+i	java:S106G"9Replace this use of System.out or System.err by a logger.(È‰í®ÿÿÿÿÿHæRMAJORZ
+CODE_SMELL
+i	java:S106L"9Replace this use of System.out or System.err by a logger.(×‘ïÚşÿÿÿÿHçRMAJORZ
+CODE_SMELL
+d	java:S106P"9Replace this use of System.out or System.err by a logger.(å‡áHèRMAJORZ
+CODE_SMELL
+i	java:S106_"9Replace this use of System.out or System.err by a logger.(È‰í®ÿÿÿÿÿHéRMAJORZ
+CODE_SMELL
+i	java:S106)"9Replace this use of System.out or System.err by a logger.(Øö«âşÿÿÿÿHêRMAJORZ
+CODE_SMELL
+c	java:S106d"9Replace this use of System.out or System.err by a logger.(²Ì’/HëRMAJORZ
+CODE_SMELL
+i	java:S1062"9Replace this use of System.out or System.err by a logger.(™¿ÒâøÿÿÿÿHìRMAJORZ
+CODE_SMELL
+d	java:S106*"9Replace this use of System.out or System.err by a logger.(¨õİÀHíRMAJORZ
+CODE_SMELL
+i	java:S106J"9Replace this use of System.out or System.err by a logger.(Î…İûÿÿÿÿHîRMAJORZ
+CODE_SMELL
+i	java:S106&"9Replace this use of System.out or System.err by a logger.(°­¹…üÿÿÿÿHïRMAJORZ
+CODE_SMELL
+i	java:S106("9Replace this use of System.out or System.err by a logger.(Ô€ŞÌøÿÿÿÿHğRMAJORZ
+CODE_SMELL
+d	java:S106%"9Replace this use of System.out or System.err by a logger.(±’§ÒHñRMAJORZ
+CODE_SMELL
+d	java:S106>"9Replace this use of System.out or System.err by a logger.(ìĞöïHòRMAJORZ
+CODE_SMELL
+i	java:S106'"9Replace this use of System.out or System.err by a logger.(¿ÖíˆıÿÿÿÿHóRMAJORZ
+CODE_SMELL
+d	java:S106l"9Replace this use of System.out or System.err by a logger.(Ñ©öÀHôRMAJORZ
+CODE_SMELL
+q
+java:S1128">Remove this unused import 'ch.qos.logback.core.CoreConstants'.(úŠê8î®Ê¼©1HõRMINORZ
+CODE_SMELL
+
+java:S1128"GRemove this unused import 'ch.qos.logback.core.net.SyslogOutputStream'.(Şïıİûÿÿÿÿ8î®Ê¼©1H÷RMINORZ
+CODE_SMELL

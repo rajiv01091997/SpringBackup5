@@ -1,0 +1,17 @@
+
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ºçíú8ÑÊ‰–©1HŒRMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ù§é8ÀÛ‡–©1HRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(üªöÚùÿÿÿÿ8ÀÛ‡–©1H‚RMAJORZ
+CODE_SMELL
+i
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8ÀÛ‡–©1H€RINFOZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(…ùŸàıÿÿÿÿ8€…–©1HRMAJORZ
+CODE_SMELL
+O
+java:S1643"Use a StringBuilder instead.(êÀ¬Ó8ÀÛ‡–©1HÿRMINORZ
+CODE_SMELL
+Š	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8ÀÛ‡–©1HşRMAJORZ
+CODE_SMELL

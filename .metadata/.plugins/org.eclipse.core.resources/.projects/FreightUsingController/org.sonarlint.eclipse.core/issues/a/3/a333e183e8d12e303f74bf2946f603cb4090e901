@@ -1,0 +1,9 @@
+
+|
+java:S3655!"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ƒÁÈÑ8ëþâ¸ª1HôRMAJORZBUG
+l
+java:S3400"9Remove this method and declare a constant for this value.(éÑª£8¡¶ˆ¸ª1HÖRMINORZ
+CODE_SMELL
+~
+java:S1128"FRemove this unused import 'org.springframework.stereotype.Repository'.(¦ýÍýüÿÿÿÿ8ëþâ¸ª1HõRMINORZ
+CODE_SMELL

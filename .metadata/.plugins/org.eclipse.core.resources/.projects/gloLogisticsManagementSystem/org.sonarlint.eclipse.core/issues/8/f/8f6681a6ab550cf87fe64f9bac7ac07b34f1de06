@@ -1,0 +1,23 @@
+
+p	java:S106,"9Replace this use of System.out or System.err by a logger.(á’—şÿÿÿÿ8Æ«‹ö¨1HRMAJORZ
+CODE_SMELL
+_
+java:S1128"-Remove this unused import 'org.slf4j.Logger'.(íØ®68ˆïÊ¡©1HñRMINORZ
+CODE_SMELL
+p	java:S1063"9Replace this use of System.out or System.err by a logger.(Îı”„ıÿÿÿÿ8ëàÁ÷¨1H¤RMAJORZ
+CODE_SMELL
+g
+java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚŞ8ˆïÊ¡©1HóRMINORZ
+CODE_SMELL
+i
+java:S1135'"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8¼×Ïé¨1HŸRINFOZ
+CODE_SMELL
+k	java:S1068"9Replace this use of System.out or System.err by a logger.(²‹Ê¥8Æ«‹ö¨1H£RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(«ì‘¼ÿÿÿÿÿ8ĞÓ·÷¨1H RMAJORZ
+CODE_SMELL
+k	java:S106-"9Replace this use of System.out or System.err by a logger.(òÿø¼8ÿœ·ö¨1H¡RMAJORZ
+CODE_SMELL
+i
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8¥Ã´ö¨1H¢RINFOZ
+CODE_SMELL

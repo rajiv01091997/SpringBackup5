@@ -1,0 +1,13 @@
+
+¤
+java:S1128"qRemove this unused import 'org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler'.(½ŠÛ€8é¦Ñª1H RMINORZ
+CODE_SMELL
+‘
+java:S2293+"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŞÁÚôùÿÿÿÿ8ÜíÚ«1H¢RMINORZ
+CODE_SMELL
+Œ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ê¶Ì8Ô¼¼Àª1H¤RMINORZ
+CODE_SMELL
+k
+java:S1611"3Remove the parentheses around the "error" parameter(‘šíâıÿÿÿÿ8†‚Ñª1H¦RMINORZ
+CODE_SMELL

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+      
+       <bean id="Freight" class="com.gloLogistic.Freight" >
+      <constructor-arg  value="101"></constructor-arg>
+       <constructor-arg  ref="address"></constructor-arg>
+        <constructor-arg  value="Bangalore"></constructor-arg>
+      </bean>
+      
+      
+      
+        <bean id="address" class="com.gloLogistic.Address">
+      <constructor-arg  value="North Subhashpally"></constructor-arg>
+       <constructor-arg  value="712311"></constructor-arg>
+      </bean>
+     
+      
+      
+     <!--
+     //order not important
+      <bean id="Freight" class="com.gloLogistic.Freight" >
+      <constructor-arg name="orderId" value="101"></constructor-arg>
+       <constructor-arg name="origin" value="Kolkata"></constructor-arg>
+        <constructor-arg name="destination" value="Bangalore"></constructor-arg>
+      </bean>
+      
+      //order is not important
+      <bean id="Freight" class="com.gloLogistic.Freight" >
+      <constructor-arg index="0" value="101"></constructor-arg>
+       <constructor-arg index="2" value="Kolkata"></constructor-arg>
+        <constructor-arg index="1" value="Bangalore"></constructor-arg>
+      </bean>
+      
+      
+      //for type order is important
+      <bean id="Freight" class="com.gloLogistic.Freight" >
+      <constructor-arg type="int" value="101"></constructor-arg>
+       <constructor-arg type="String" value="Kolkata"></constructor-arg>
+        <constructor-arg type="String" value="Bangalore"></constructor-arg>
+      </bean>
+      
+      -->
+
+</beans>

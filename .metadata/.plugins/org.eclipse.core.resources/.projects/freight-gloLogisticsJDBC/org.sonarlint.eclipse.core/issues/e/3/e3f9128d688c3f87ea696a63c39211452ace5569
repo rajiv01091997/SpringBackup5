@@ -1,0 +1,38 @@
+
+p	java:S106M"9Replace this use of System.out or System.err by a logger.(¬ôçüÿÿÿÿ8€ô™©1H³RMAJORZ
+CODE_SMELL
+Z
+java:S1125"'Remove the unnecessary boolean literal.(±Ï¸ó8³ßø˜©1HºRMINORZ
+CODE_SMELL
+‚
+java:S2095H"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ğ÷Ø¼üÿÿÿÿ8Çû¶™©1H´RBLOCKERZBUG
+s
+java:S1128	";Remove this unused import 'com.mysql.cj.xdevapi.Statement'.(Î…¿Šøÿÿÿÿ8´ß¢™©1H®RMINORZ
+CODE_SMELL
+‚
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ™Äãûÿÿÿÿ8³ßø˜©1H¸RBLOCKERZBUG
+k	java:S106v"9Replace this use of System.out or System.err by a logger.(äÜõ›8³ßø˜©1HµRMAJORZ
+CODE_SMELL
+c
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Œî˜©1H¿RMINORZ
+CODE_SMELL
+‚
+java:S2095+"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(òç¡±øÿÿÿÿ8é™™©1H±RBLOCKERZBUG
+}
+java:S2095^"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ú˜¤¼8Õìæ™©1H½RBLOCKERZBUG
+p	java:S106d"9Replace this use of System.out or System.err by a logger.(¯è‰ıÿÿÿÿ8é™™©1H¶RMAJORZ
+CODE_SMELL
+p	java:S1065"9Replace this use of System.out or System.err by a logger.(¬ôçüÿÿÿÿ8é™™©1HÁRMAJORZ
+CODE_SMELL
+…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÒ˜ƒüÿÿÿÿ8³ßø˜©1H¹RMINORZ
+CODE_SMELL
+p	java:S1069"9Replace this use of System.out or System.err by a logger.(È¹ºùÿÿÿÿ8Çû¶™©1H°RMAJORZ
+CODE_SMELL
+‚
+java:S2095r"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¾ÚÇÖùÿÿÿÿ8€ô™©1H­RBLOCKERZBUG
+k	java:S106"9Replace this use of System.out or System.err by a logger.(²²»‚8Õìæ™©1H¾RMAJORZ
+CODE_SMELL
+p	java:S106N"9Replace this use of System.out or System.err by a logger.(È¹ºùÿÿÿÿ8Çû¶™©1H²RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(èØ‘Üûÿÿÿÿ8³ßø˜©1H·RMAJORZ
+CODE_SMELL

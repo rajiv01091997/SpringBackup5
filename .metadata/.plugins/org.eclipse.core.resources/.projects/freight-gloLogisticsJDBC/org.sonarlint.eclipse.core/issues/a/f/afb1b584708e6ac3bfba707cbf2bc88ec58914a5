@@ -1,0 +1,34 @@
+
+F
+java:S1220""Move this file to a named package.HÂRMINORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(Ëì¤ùÿÿÿÿ8‡¿ø™©1HÃRMAJORZ
+CODE_SMELL
+e
+java:S1481
+"-Remove this unused "freight2" local variable.(…¹„éøÿÿÿÿ8ÈÔ¦™©1HÄRMINORZ
+CODE_SMELL
+`
+java:S1481	"-Remove this unused "freight1" local variable.(žÚ‡þ8Ï›Ÿ™©1HÆRMINORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(ò¹Á¸úÿÿÿÿ8‡¿ø™©1HÈRMAJORZ
+CODE_SMELL
+a
+java:S1481")Remove this unused "repo" local variable.(†õÊ­ùÿÿÿÿ8¿Ü†š©1HÉRMINORZ
+CODE_SMELL
+p
+java:S1854"8Remove this useless assignment to local variable "repo".(†õÊ­ùÿÿÿÿ8¿Ü†š©1HËRMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(›¬óÙ8‡¿ø™©1HÌRMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(ïêÕ’8¿Ü†š©1HÍRMAJORZ
+CODE_SMELL
+t
+java:S1854
+"<Remove this useless assignment to local variable "freight2".(…¹„éøÿÿÿÿ8ÈÔ¦™©1HÎRMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(é”ºÏ8×ðƒš©1HÏRMAJORZ
+CODE_SMELL
+o
+java:S1854	"<Remove this useless assignment to local variable "freight1".(žÚ‡þ8Ï›Ÿ™©1HÐRMAJORZ
+CODE_SMELL

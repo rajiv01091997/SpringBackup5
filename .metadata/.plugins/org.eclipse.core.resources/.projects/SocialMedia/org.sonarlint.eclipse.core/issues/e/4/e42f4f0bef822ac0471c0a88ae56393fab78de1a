@@ -1,0 +1,13 @@
+
+j	java:S1062"9Replace this use of System.out or System.err by a logger.(½… $8•øªª1HÅRMAJORZ
+CODE_SMELL
+m	java:S1250"<This block of commented-out lines of code should be removed.(¥è£38×–„Õ©1HÄRMAJORZ
+CODE_SMELL
+s
+java:S1854,";Remove this useless assignment to local variable "profile".(Ùš”ßıÿÿÿÿ8Ç¤úªª1HÇRMAJORZ
+CODE_SMELL
+d
+java:S1481,",Remove this unused "profile" local variable.(Ùš”ßıÿÿÿÿ8Ç¤úªª1HÈRMINORZ
+CODE_SMELL
+n	java:S125."<This block of commented-out lines of code should be removed.(Å…©Ç8Ç¤úªª1HÊRMAJORZ
+CODE_SMELL

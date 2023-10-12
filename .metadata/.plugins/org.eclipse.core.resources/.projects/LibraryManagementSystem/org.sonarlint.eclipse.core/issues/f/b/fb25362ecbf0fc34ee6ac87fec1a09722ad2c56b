@@ -1,0 +1,42 @@
+
+y
+java:S3457?"AFormat specifiers should be used instead of string concatenation.(¬®‰ıÿÿÿÿ8˜ãÓ«1HRMAJORZ
+CODE_SMELL
+s
+java:S1612g";Replace this lambda with method reference 'this::mapToDto'.(€ò„Úûÿÿÿÿ8ó¥éûª1HÁRMINORZ
+CODE_SMELL
+‚
+java:S1192I"GDefine a constant instead of duplicating this literal "bookId" 3 times.(à…ˆÒıÿÿÿÿ8ñ±—Ñ«1HRCRITICALZ
+CODE_SMELL
+”
+java:S2629?"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(¬®‰ıÿÿÿÿ8˜ãÓ«1HıRMAJORZ
+CODE_SMELL
+o
+java:S1128"7Remove this unused import 'java.util.stream.Collector'.(£Æÿÿÿÿÿ8•š¢Ó«1H’RMINORZ
+CODE_SMELL
+z
+java:S3457Œ"AFormat specifiers should be used instead of string concatenation.(¬®‰ıÿÿÿÿ8ˆÜØĞ«1HğRMAJORZ
+CODE_SMELL
+b
+java:S1481‰")Remove this unused "book" local variable.(à…ˆÒıÿÿÿÿ8ñ±—Ñ«1H•RMINORZ
+CODE_SMELL
+Š
+java:S6204g"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(€ò„Úûÿÿÿÿ8ó¥éûª1H½RMAJORZ
+CODE_SMELL
+q
+java:S1854‰"8Remove this useless assignment to local variable "book".(à…ˆÒıÿÿÿÿ8ñ±—Ñ«1H”RMAJORZ
+CODE_SMELL
+s	java:S125`"<This block of commented-out lines of code should be removed.(ŞçË†ûÿÿÿÿ8Î¦êüª1HÀRMAJORZ
+CODE_SMELL
+i
+java:S1153A"1Directly append the argument of String.valueOf().(¿€Ò‚ûÿÿÿÿ8˜ãÓ«1HşRMINORZ
+CODE_SMELL
+‚
+java:S3973@"GUse indentation to denote the code conditionally executed by this "if".(€•¬Œÿÿÿÿÿ8˜ãÓ«1HÿRCRITICALZ
+CODE_SMELL
+j
+java:S1153–"1Directly append the argument of String.valueOf().(Á“õıûÿÿÿÿ8•ïÓÓ«1HêRMINORZ
+CODE_SMELL
+•
+java:S2629Œ"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(¬®‰ıÿÿÿÿ8îŒçÓ«1HRMAJORZ
+CODE_SMELL

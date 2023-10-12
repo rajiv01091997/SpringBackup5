@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="fleet1" class="com.glo.model.Fleet">
+    <constructor-arg name="fleetId" value="1001"></constructor-arg>
+    <property name="origin" value="Kolkata"></property>
+    <property name="destination" value="Uttar Pradesh"></property>
+    </bean>
+    
+    <bean id="fleet2" class="com.glo.model.Fleet">
+    <constructor-arg name="fleetId" value="1002"></constructor-arg>
+    <property name="origin" value="Chennai"></property>
+    <property name="destination" value="Hyderabad"></property>
+    </bean>
+    
+    
+    <bean id="repository" class="com.glo.repository.FleetRepository">
+    <property name="fleetStorage">
+    <list>
+    <ref bean="fleet1"/>
+    <ref bean="fleet2"/>
+    </list>
+    </property>
+    </bean>
+    
+    <bean id="service" class="com.glo.Service.FleetServiceImpl" autowire="byType">
+    
+    </bean>
+      
+     <!--
+     //order not important
+      <bean id="Freight" class="com.gloLogistic.Freight" >
+      <constructor-arg name="orderId" value="101"></constructor-arg>
+       <constructor-arg name="origin" value="Kolkata"></constructor-arg>
+        <constructor-arg name="destination" value="Bangalore"></constructor-arg>
+      </bean>
+      
+      //order is not important
+      <bean id="Freight" class="com.gloLogistic.Freight" >
+      <constructor-arg index="0" value="101"></constructor-arg>
+       <constructor-arg index="2" value="Kolkata"></constructor-arg>
+        <constructor-arg index="1" value="Bangalore"></constructor-arg>
+      </bean>
+      
+      
+      //for type order is important
+      <bean id="Freight" class="com.gloLogistic.Freight" >
+      <constructor-arg type="int" value="101"></constructor-arg>
+       <constructor-arg type="String" value="Kolkata"></constructor-arg>
+        <constructor-arg type="String" value="Bangalore"></constructor-arg>
+      </bean>
+      
+      -->
+
+</beans>

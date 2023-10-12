@@ -1,0 +1,22 @@
+
+n	java:S1250"<This block of commented-out lines of code should be removed.(Ú°à¬8ö¾‘ñ¨1H¨RMAJORZ
+CODE_SMELL
+w
+java:S1128"?Remove this unused import 'org.aspectj.lang.annotation.Around'.(ï°Œşûÿÿÿÿ8Æ•Şñ¨1H²RMINORZ
+CODE_SMELL
+y
+java:S3457"AFormat specifiers should be used instead of string concatenation.(úÙÄÿÿÿÿÿ8ÎÎëğ¨1H´RMAJORZ
+CODE_SMELL
+k	java:S106%"9Replace this use of System.out or System.err by a logger.(×Ûå¼8Ú’¼ğ¨1HµRMAJORZ
+CODE_SMELL
+j	java:S106#"9Replace this use of System.out or System.err by a logger.(Ê–x8®È„ñ¨1H¶RMAJORZ
+CODE_SMELL
+o
+java:S2629"7Use the built-in formatting to construct this argument.(úÙÄÿÿÿÿÿ8ÎÎëğ¨1H·RMAJORZ
+CODE_SMELL
+‹
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8ëœîñ¨1H¸RMINORZ
+CODE_SMELL
+t
+java:S1128"ARemove this unused import 'org.aspectj.lang.ProceedingJoinPoint'.(ç—Âû8Æ•Şñ¨1HºRMINORZ
+CODE_SMELL
